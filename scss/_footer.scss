@@ -1,0 +1,10 @@
+.footerBg {
+    background-color: $color-footer;
+    width: 100vw;
+    height: auto;
+    bottom: 0;
+    .footerBg h3{
+      text-align: center;
+      font-size: 20px;
+    } 
+}

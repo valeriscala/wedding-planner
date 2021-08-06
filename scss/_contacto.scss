@@ -1,0 +1,42 @@
+@import "variables.scss";
+ *{margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+    
+
+.titulo {color : $color-title;
+    font-size : $title-size}
+
+.form {
+    background: #FFE8D6;
+    width: 90%;
+    max-width: 650px;
+    margin: auto;
+    padding: 5px 35px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 3px;
+}
+
+.form__label {
+    display: block; 
+    color: #CB997E;
+    font-size: 16px;
+    position: relative;
+}
+
+.textarea {
+    background:white;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    color: #ff0;
+    resize: none;
+}
+    

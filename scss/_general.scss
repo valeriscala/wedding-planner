@@ -1,0 +1,7 @@
+@mixin general{
+    margin: 0;
+    padding: 0;
+}
+*{
+    @include general;
+}
