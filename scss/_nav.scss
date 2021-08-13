@@ -1,0 +1,16 @@
+.header{
+    & nav ul{
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: row;
+        width: 100vw;
+            &__list{
+                display: inline-flex;
+                & a{
+                    color: #fff;
+                    padding: 1em;
+                    margin: 20px;
+                    }
+            }
+    }
+}

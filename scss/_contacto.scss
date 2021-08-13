@@ -6,8 +6,12 @@ box-sizing: border-box;
 }
     
 
-.titulo {color : $color-title;
-    font-size : $title-size}
+.titulo {
+    font-family: 'Allura', cursive;
+    font-size: 80px;
+    text-align: left;
+    padding-top: 20px;
+  }
 
 .form {
     background: #FFE8D6;

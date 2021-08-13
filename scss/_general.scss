@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
 }
+
 *{
     @include general;
+    list-style: none;
+    text-decoration: none;
+    padding-inline-start: 0px;
 }
